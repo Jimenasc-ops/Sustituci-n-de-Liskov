@@ -1,1 +1,2 @@
 # Sustituci-n-de-Liskov
+//En este principio es con cualquier clase hija que debe de poder sustituir o reemplazar a su clase padre sin romper el programa ni alterar su comportamiento esperado, como en la clase padre Producto donde se definen los metodos como AplicarDescuento y Convertir Precio(), luego los clases hijas Fisico y Digital, sobreeescribir el metodo AplicarDescuento() para que cada una calcule su propio porcentaje de descuento especifico.
